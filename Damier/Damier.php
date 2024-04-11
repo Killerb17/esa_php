@@ -9,15 +9,15 @@
 <body>
 
 <?php
-for ($i=0; $i<=10; $i++) {
+for ($i=0; $i<=7; $i++) {
     echo "<div style='clear:both'> ";
 
-    for ($j=0;$j<=10; $j++){
+    for ($j=0;$j<=7; $j++){
          if(($i+$j)% 2 == 0){
-            echo"<div style='width: 50px;height: 50px;
+            echo"<div style='border: solid 2px ; width: 50px;height: 50px;
                 background-color: black; float: left'> </div>";
             } else {
-                echo "<div style='width: 50px;height: 50px;
+                echo "<div style=' border: solid 2px; width: 50px;height: 50px;
                 background-color: white; float: left'> </div>";
             }
             
